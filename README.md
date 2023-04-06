@@ -1,2 +1,2 @@
-# juanescudero.github.io
-Curriculum web
+# Curriculum-Vitae
+Curriculum Profesional
