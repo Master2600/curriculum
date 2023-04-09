@@ -15,9 +15,11 @@
 </head>
 
 <body>
+
+  <div class="container-fluid" style="padding: 0;" >
     <!--Inicio Menú-->
     <nav class="navbar navbar-dark bg-dark fixed-top">
-        <div class="container-fluid">
+        <div class="container-fluid" style="padding: 0;">
           <a class="navbar-brand px-5" href="#">CURRICULUM VITAE</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -61,14 +63,13 @@
 
       <!-- Inicio Hero-Section--> 
 
-    <header id="Inicio">
-        <div class="container-fluid" style="position: relative;">
-            <img src="assets/img/ammplio-arquitectos-madrid-1407.jpg" width="auto" />  
-            <h1 style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1;">
-              
+    <header id="inicio">
+        <div class="container-fluid" >
+            
+            <h1 class="text-light">             
               “La arquitectura es el juego maestro, <br>
-              correcto y magnífico del los volúmenes <br>
-              bajo la luz”<!--Nuevo día<br>Nuevas cosas creativas--></h1>
+              correcto y magnífico de los volúmenes <br>
+              bajo la luz”</h1>
         </div>
 
         
@@ -82,24 +83,88 @@
       </header>
     <!--fin Hero section-->
       <!-- Inicio Hero-Section--> 
-    <section id="Presentacion">
-      <div class="container-fluid">
-        <h3>Resumen</h3>
-        <p>Arquitecto, amplia experiencia en Planimetría de viviendas unifamiliares,<br>
-           hotelería y resort. Detalles constructivos,<br>
-        <br>Coordinación y revisión de proyectos de especialidades involucradas en el<br>
-         área de la construcción. Manejo de herramientas computacionales a nivel avanzado. <br>
-        <br>Ofimática y programas 3d (Autocad, Sketchup, Archicad), Lumion, Enscape,<br>
-         entre otros.  Vasto conocimiento Normativa OGUC. Planes reguladores y aplicación<br>
-          de regulaciones para ingreso de expedientes municipales.</p>
-        <p></p>
+      <section id="presentacion">
+        <div class="container">
+          <div class="row">
+            <div class=" col-12 col-md-8">
+              <h3>Resumen</h3>
+              <p>Como arquitecto, tengo amplia experiencia en la planimetría de viviendas unifamiliares, <br>
+                hotelería y resorts. También tengo experiencia en detalles constructivos, coordinación <br>
+                y revisión de proyectos de especialidades involucradas en el área de la construcción.<br>
+                 Manejo herramientas computacionales a nivel avanzado, como Autocad, Sketchup, Archicad, 
+                 Lumion, Enscape, entre otros.<br><br> 
+                 Además, tengo un vasto conocimiento de la normativa OGUC y los planes reguladores, <br> 
+                 colaborando en la aplicación de regulaciones para el ingreso de expedientes municipales.</p>
+              <br>
+
+            </div>
+          </div>
+        </div>
+      </section>
       
-      </div>
-
-
-    </section>
     
       <!-- Fin Hero-Section--> 
+
+      <!-- Presentacion foto--> 
+
+      <div class="container-fluid pb-5" style="background-color: black;">
+            <h3 class="text-light pt-5 container">Mi resumen</h3>
+            <br> <br> <br> 
+        <div class="container-fluid ms-auto px-5 row">
+            <div class="col-12 col-xl-3 ps-5">
+              <div class="card border-0" style="width: 18rem;">
+                <ul class="list-group list-group-flush">
+                  <li class="py-4 list-group-item" style="background-color: #D9D9D9; color: rgb(0, 0, 0);">1.- Diseño <br><br>Nec ullamcorper sit amet risus nullam eget. Vestibulum lorem sed risus ultricies tristique nulla.</li>
+                  <li class="py-4 list-group-item" style="background-color: rgb(5, 5, 5); color: white;">2. Innovación <br> <br>Nec ullamcorper sit amet risus nullam eget. Vestibulum lorem sed risus ultricies tristique nulla.<br></li>
+                </ul>
+              </div>
+            </div>
+            <div class=" col-12 col-xl-3 ps-5">
+              <div class="card border-0" style="width: 18rem;">
+                <img src="assets/img/foto4.jpg"  height="335px;"alt="">
+              </div>
+            </div>
+            <div class="col-12 col-xl-3 ps-5">
+              <div class="card border-0" style="width: 18rem;">
+                <ul class="list-group list-group-flush">
+                  <li class=" py-4 list-group-item text-end" style="background-color: rgb(8, 8, 8); color: white;">3. Ágil <br><br>Nec ullamcorper sit amet risus nullam eget. Vestibulum lorem sed risus ultricies tristique nulla.</li>
+                  <li class=" py-4 list-group-item text-end" style="background-color: #D9D9D9; color: white;">4. Investigación <br><br>Nec ullamcorper sit amet risus nullam eget. Vestibulum lorem sed risus ultricies tristique nulla.</li>
+                </ul>
+              </div>
+            </div>
+        </div>
+      </div>
+
+      <!-- Fin Presentacion foto--> 
+
+      <!-- inicio Carrusel-->
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/img/curva1.jpg" class="d-block w-100 h-75" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/curva1b.jpg" class="d-block w-100  h-75" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/curva2.jpg" class="d-block w-100  h-75" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/rec1.png" class="d-block w-100  h-75" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+<!-- fin Carrusel-->
+      
+      
       
       <!-- Inicio Experiencia Profesional--> 
     
@@ -189,32 +254,7 @@
 
 </section>
 
-<!-- inicio Carrusel-->
-<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="assets/img/curva1.jpg" class="d-block w-100 h-75" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="assets/img/curva1b.jpg" class="d-block w-100  h-75" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="assets/img/curva2.jpg" class="d-block w-100  h-75" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="assets/img/rec1.png" class="d-block w-100  h-75" alt="...">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-<!-- fin Carrusel-->
+
 
 <!--Inicio Contacto-->
 
@@ -253,6 +293,8 @@
 <!--Fin Contacto-->
    
     <footer>Website by JebMaster 2023</footer>
+
+  </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>

@@ -1,3 +1,7 @@
+body *{
+  margin: 0;
+  border: 0;
+}
 
 nav{
   font-size: large;
@@ -9,7 +13,7 @@ nav{
     text-align:left; 
     }
 
-#Inicio h1{
+/*#Inicio h1{
 
         color: rgb(252, 252, 252) !important;
         text-align: Left;
@@ -18,14 +22,36 @@ nav{
         font-weight: bold;
         font-size: 30px;
 }
-#Presentacion{
+*/
+
+#inicio {
+  position: relative;
+  padding: 0;
+  width: 100%;
+  height: 500px; /* Altura agregada para dar espacio suficiente a la imagen */
+  background-image: url("../img/ammplio-arquitectos-madrid-1407.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#inicio h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+
+#presentacion{
         width: 100%;
-        height: 400px;
-        background-color: antiquewhite;
+        height: auto;
+        background-color: #D6C8B8;
         color: rgb(0, 0, 0);
         text-align: Left;
         padding-top: 50px;
-        padding-right: 150px;
+        /*padding-left: 120px;*/
         font-size: 20px;
         font-weight: lighter;
   }    
