@@ -16,61 +16,48 @@
 
 <body>
 
-  <div class="container-fluid" style="padding: 0;" >
-    <!--Inicio Menú-->
-    <nav class="navbar navbar-dark bg-dark fixed-top">
-        <div class="container-fluid" style="padding: 0;">
-          <a class="navbar-brand px-5" href="#">CURRICULUM VITAE</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Juan Escudero B.</h5>
-              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Contacto</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Menú
-                  </a>
-                  <ul class="dropdown-menu dropdown-menu-dark">
-                    <li><a class="dropdown-item" href="#">Presentacion</a></li>
-                    <li><a class="dropdown-item" href="#">Informacion Educacional</a></li>
-                    <li>
-                      <hr class="dropdown-divider">
-                    </li>
-                    <li><a class="dropdown-item" href="#">Imagenes Trabajos</a></li>
-                  </ul>
-                </li>
-              </ul>
-              <form class="d-flex mt-3" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-success" type="submit">Buscar</button>
-              </form>
-            </div>
-          </div>
+
+   <!--Inicio Menú-->
+   <div class="container" style="padding: 0;">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Juan Escudero B.</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#presentacion">Presentacion</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experiencia">Experiencia Profesional</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
         </div>
-      </nav>
-      <!--Fin Menú-->
+      </div>
+    </nav>
+  </div>  
+  
+      <!--Fin Menú--> 
 
       <!-- Inicio Hero-Section--> 
 
     <header id="inicio">
-        <div class="container-fluid" >
-            
-            <h1 class="text-light">             
-              “La arquitectura es el juego maestro, <br>
-              correcto y magnífico de los volúmenes <br>
-              bajo la luz”</h1>
-        </div>
+      <div class="container">
+        <h3 class="text-light">
+          “La arquitectura es el juego maestro, <br>
+          correcto y magnífico de los volúmenes <br>
+          bajo la luz”
+        </h3>
+      </div>
+      
 
         
         <!--<img src="assets/img/foto.jpg" width="150" />
@@ -78,7 +65,6 @@
         <h4>Avda. Lo Ovalle 0854 Depto 615 C </h4>
         <h4>La Cisterna, Santiago Teléfono: +56 942446827</h4>
         <a href="https://www.gmail.com" target="_blank">jotaebe@gmail.com</a>-->
-    
 
       </header>
     <!--fin Hero section-->
@@ -87,7 +73,7 @@
         <div class="container">
           <div class="row">
             <div class=" col-12 col-md-8">
-              <h3>Resumen</h3>
+              <h3>Aptitudes</h3><br><br>
               <p>Como arquitecto, tengo amplia experiencia en la planimetría de viviendas unifamiliares, <br>
                 hotelería y resorts. También tengo experiencia en detalles constructivos, coordinación <br>
                 y revisión de proyectos de especialidades involucradas en el área de la construcción.<br>
@@ -121,14 +107,14 @@
             </div>
             <div class=" col-12 col-xl-3 ps-5">
               <div class="card border-0" style="width: 18rem;">
-                <img src="assets/img/foto4.jpg"  height="335px;"alt="">
+                <img src="assets/img/otra.jpg"  height="335px;"alt="">
               </div>
             </div>
             <div class="col-12 col-xl-3 ps-5">
               <div class="card border-0" style="width: 18rem;">
                 <ul class="list-group list-group-flush">
                   <li class=" py-4 list-group-item text-end" style="background-color: rgb(8, 8, 8); color: white;">3. Ágil <br><br>Nec ullamcorper sit amet risus nullam eget. Vestibulum lorem sed risus ultricies tristique nulla.</li>
-                  <li class=" py-4 list-group-item text-end" style="background-color: #D9D9D9; color: white;">4. Investigación <br><br>Nec ullamcorper sit amet risus nullam eget. Vestibulum lorem sed risus ultricies tristique nulla.</li>
+                  <li class=" py-4 list-group-item text-end" style="background-color: #D9D9D9; color: rgb(0, 0, 0);">4. Investigación <br><br>Nec ullamcorper sit amet risus nullam eget. Vestibulum lorem sed risus ultricies tristique nulla.</li>
                 </ul>
               </div>
             </div>
@@ -166,91 +152,83 @@
       
       
       
-      <!-- Inicio Experiencia Profesional--> 
-    
-    <section id="Resumen">
-        <div class="row">
-            <div class="col 12 col-lg-4">
-                  
-                  <h3> <b><u>Experiencia Profesional </u></b> </h3>
-                  <h4><b><i>Rodrigo Verdugo & Arquitectos Asociados</i></b></h4>
-                  <h4><b><i>Proyectos Noviembre 2007 a Abril 2019</i></b></h4>
-                  <p>Diseño y desarrollo planimetría Proyectos Huilo-Huilo</p>
-                  <ul>
-                  <li>Hoteles Reino funghi</li>
-                  <li>Spa</li>
-                  <li>Piscina familiar</li>
-                  <li>Cerveceria Petterman</li>
-                  <li>Agua mineral</li>
-                  <li>Marina Lodge</li>
-                  <li>Marina del Fuy</li>
-                  <li>Lawenko Spa</li>
-                  <li>Teleférico</li>
-                  <li>Cabañas</li>
-                  <li>Museo</li>
-                  <li>etc</li>
-                  </ul>
+  <!-- Inicio Experiencia Profesional--> 
+  <section id="experiencia">
+    <div class="container-fluid pb-5" style="background-color: black;">
+        <h3 class="text-light pt-5 container">Experiencia Profesional</h3>
+        <br><br><br>
+        <div class="container-fluid ms-auto px-5 row">
+            <div class="col-12 col-xl-3 ps-5 mb-3">
+                <div class="card border-0" style="width: 18rem;">
+                    <ul class="list-group list-group-flush">
+                        <li class="py-4 list-group-item" style="background-color: #D9D9D9; color: rgb(0, 0, 0);">
+                            <b>1.- Rodrigo Verdugo & Arquitectos Asociados </b><br><br> Proyectos Noviembre 2007 a Abril 2019<br> Diseño y desarrollo planimetría Proyectos Huilo-Huilo<br> Hoteles Reino funghi<br> Spa<br> Piscina familiar<br> Cerveceria Petterman<br> Agua mineral<br> Marina Lodge<br> Marina del Fuy<br> Lawenko Spa<br> Teleférico<br> Cabañas<br> Museo<br> etc</li>
+                    </ul>
+                </div>
             </div>
-
-            <div class="col 12 col-lg-4">
-              <br><br><br><br><br><br><br>
-                          
-              <p>Proyecto de Remodelación interior y nuevos comedores Rosa Agustina Conference</p>
-              <p>Proyecto Nuevo resort Rosa Agustina Guanaqueros (en construcción) </p>
-              <p>Proyecto Hotel El Volcan (China)</p>
-              <p>Viviendas unifamiliares</p>
-              <p>Proyectos Industriales</p>
-
+            <div class=" col-12 col-xl-3 ps-5 mb-3">
+                <div class="card border-0" style="width: 18rem;">
+                    <ul class="list-group list-group-flush">
+                        <li class="py-4 list-group-item" style="background-color: #D9D9D9; color: rgb(0, 0, 0)">Proyecto de Remodelación interior y nuevos comedores Rosa Agustina Conference<br><br> Proyecto Nuevo resort Rosa Agustina Guanaqueros (en construcción)<br> Proyecto Hotel El Volcan (China)<br> Viviendas unifamiliares<br> Proyectos Industriales<br></li>
+                    </ul>
+                </div>
             </div>
-
-            <div class="col 12 col-lg-4">
-              <h3> <b><u>Arkimaster Ltda </u></b> </h3>
-              <h4><b><i>Arquitectura & Construcción</i></b></h4>
-              <h4><b><i>Proyectos Marzo 1996 – Noviembre 2007</i></b></h4> <br>
-              <p>Dibujo y desarrollo planimetría Proyectos</p>
-              <p>Mas de 250 Viviendas unifamiliares</p>
-              <p>Desarrollo de Condominios Tipo A y B en La Dehesa, Lo Barnechea, Club de Golf Linderos,</p>
-              <p><b>Encargado de Compras y remuneraciones de Obras</b></p>
-                    
+            <div class="col-12 col-xl-3  ps-5 mb-3">
+                <div class="card border-0" style="width: 18rem;">
+                    <ul class="list-group list-group-flush">
+                        <li class=" py-4 list-group-item text-end" style="background-color:  #D9D9D9; color: rgb(0, 0, 0);">Arkimaster Ltda <br><br>Arquitectura & Construcción <br> Proyectos Marzo 1996 – Noviembre 2007</i> <br>
+                            <p>Dibujo y desarrollo planimetría Proyectos</p>
+                            <p>Mas de 250 Viviendas unifamiliares</p>
+                            <p>Desarrollo de Condominios Tipo A y B en La Dehesa, Lo Barnechea, Club de Golf Linderos,</p>
+                            <p>Encargado de Compras y remuneraciones de Obras</li>
+                    </ul>
+                </div>
             </div>
-
-      </div>
-
-    </section>
-<!-- Fin Experiencia Profesional--> 
+        </div>
+    </div>
+</section>
+<!-- Fin Experiencia Profesional-->
 
 <!-- inicio Informacion Educacional-->
-<section id="Educacion">
-  <div class="row">
-      <div class="col 12 col-lg-4">
-            
-        <h3><b><u>Educación</u></b></h3>
-        <ul>
-            <li>Licenciado en Arquitectura (2000-2005)Universidad de Santiago de Chile</li>
-            <li>Dibujante tecnico de Arquitectura(1993 – 1997), Universidad de Santiago de Chile</li>
-            <li>Curso de Armado y reparación de computadores (1992) Sonda</li>
-            <li>Programador de Aplicaciones Computaciones (1986-1991)</li>
-        </ul>
-      </div>
+<section id="educacion">
+  <div class="row container-fluid  ms-auto px-5">
+          <div class="col 12 col-lg-4 ps-5">
+            <div class="card border-0" style="width: 18rem;">
+              <ul class="list-group list-group-flush">
+                <h3><b><u>Educación</u></b></h3>
+                <ul>
+                    <li>Licenciado en Arquitectura (2000-2005)Universidad de Santiago de Chile</li>
+                    <li>Dibujante tecnico de Arquitectura(1993 – 1997), Universidad de Santiago de Chile</li>
+                    <li>Curso de Armado y reparación de computadores (1992) Sonda</li>
+                    <li>Programador de Aplicaciones Computaciones (1986-1991)</li>
+                </ul>
+              </ul>
 
-      <div class="col 12 col-lg-4">
-        
-                    
-        <h3> <b><u>Referencias</u></b> </h3>
-    <p>Rodrigo Verdugo Navarrete, Arquitecto	Fono:+569 89009944</p>
-    <p>Juan Pablo lrarrazaval Comandari, Arquitecto	Fono:+569 92301901</p>
-    <p>José Manuel Rodriguez Duval, Arquitecto	Fono:+569 88374327</p>
-    <p>Sergio lves Galleguillos, Constructor 	Fono:+569 92273561</p>
-    <p>Humberto Roa, Constructor		Fono:+569 68618818</p>
+            </div>
+          </div>
 
-      </div>
+          <div class="col 12 col-lg-4 ps-5">
+    
+          </div>
 
-      <div class="col 12 col-lg-4">
-       
-              
-      </div>
 
-</div>
+            <div class="col 12 col-lg-4 pe-5">
+              <div class="card border-0" style="width: 18rem;">
+                <ul class="list-group list-group-flush">
+                          
+                <h3> <b><u>Referencias</u></b> </h3>
+                <p>Rodrigo Verdugo Navarrete, Arquitecto	Fono:+569 89009944</p>
+                <p>Juan Pablo lrarrazaval Comandari, Arquitecto	Fono:+569 92301901</p>
+                <p>José Manuel Rodriguez Duval, Arquitecto	Fono:+569 88374327</p>
+                <p>Sergio lves Galleguillos, Constructor 	Fono:+569 92273561</p>
+                <p>Humberto Roa, Constructor		Fono:+569 68618818</p>
+              </ul>
+
+            </div>
+          </div>
+
+     
+  </div>
 
 </section>
 
@@ -258,15 +236,9 @@
 
 <!--Inicio Contacto-->
 
-<section id="Contacto" class="container my-5">
+<section id="contacto" class="container my-5">
 
   <h2 class=" text-center my-4">Contáctame</h2>
-
-  <!--<p class="b16 text-center my-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-      Doloribus
-      sapiente, autem delectus totam expedita
-      animi corporis dolorem qui magnam, aspernatur officiis quasi culpa tempora est commodi. Voluptate beatae
-      tempora quaerat?</p> -->
 
   <form>
       <div class="form-group mb-4 text-start">
@@ -292,7 +264,7 @@
 </section>
 <!--Fin Contacto-->
    
-    <footer>Website by JebMaster 2023</footer>
+    <footer>Website by JebMaster 2023  La Cisterna, Santiago Teléfono: +56 942446827</footer>
 
   </div>
 
